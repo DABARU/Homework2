@@ -26,7 +26,8 @@ int main()
                      << "\t\t Divide on zero"
                      << std::endl;
        else {
-           f = exp(5+3/x) + 11*x+ (cos(x)/sin(x))*(2*x+ 15);
+           f = exp((5+3)
+/x) + 11*x+ (cos(x)/sin(x))*(2*x+ 15);
 
            std::cout << "\t"
                      << x
